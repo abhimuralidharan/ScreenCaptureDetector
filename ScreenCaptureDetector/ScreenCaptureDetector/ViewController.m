@@ -16,7 +16,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self setupView];
 }
 -(void)setupView {
     if ([[ScreenRecordingDetector sharedInstance] isRecording]) {
@@ -30,6 +29,8 @@
 }
 -(void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
+    [self setupView];
+
     [[NSNotificationCenter defaultCenter]addObserver:self
                                             selector:@selector(appDidBecomeActive)
                                                 name:UIApplicationDidBecomeActiveNotification
