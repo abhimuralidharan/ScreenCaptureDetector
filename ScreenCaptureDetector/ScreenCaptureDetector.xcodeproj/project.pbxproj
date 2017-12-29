@@ -65,13 +65,21 @@
 				185CDDD61FF614410076063D /* AppDelegate.m */,
 				185CDDD81FF614410076063D /* ViewController.h */,
 				185CDDD91FF614410076063D /* ViewController.m */,
-				185CDDEB1FF6153F0076063D /* ScreenRecordingDetector.h */,
-				185CDDEC1FF6153F0076063D /* ScreenRecordingDetector.m */,
+				185CDDEE1FF629F10076063D /* ScreenCaptureDetector */,
 				185CDDDB1FF614410076063D /* Main.storyboard */,
 				185CDDDE1FF614410076063D /* Assets.xcassets */,
 				185CDDE01FF614410076063D /* LaunchScreen.storyboard */,
 				185CDDE31FF614410076063D /* Info.plist */,
 				185CDDE41FF614410076063D /* main.m */,
+			);
+			path = ScreenCaptureDetector;
+			sourceTree = "<group>";
+		};
+		185CDDEE1FF629F10076063D /* ScreenCaptureDetector */ = {
+			isa = PBXGroup;
+			children = (
+				185CDDEB1FF6153F0076063D /* ScreenRecordingDetector.h */,
+				185CDDEC1FF6153F0076063D /* ScreenRecordingDetector.m */,
 			);
 			path = ScreenCaptureDetector;
 			sourceTree = "<group>";
